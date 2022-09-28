@@ -26,7 +26,7 @@ public class CustomCaptureCombo extends CaptureCombo {
             if (this.lastCapture == species) {
                 ++this.captureCount;
             } else {
-                this.captureCount = 1;
+                this.captureCount = 15;
             }
 
             this.lastCapture = species;
